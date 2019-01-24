@@ -1,16 +1,18 @@
 class Game 
     attr_reader :word
 
+    File.open("word_list.txt") do |word|
+    end
+    #different file?
+
     def initialize (word)
         @word = word
     end
 
-    
-
     def display_word
-        # scope? Does this function know about other functions? 
-       puts "_" == w.length   #counter?
+       puts "_" == word.length  
     end
+
 end
 
 
