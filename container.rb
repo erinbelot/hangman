@@ -2,13 +2,15 @@
 class Container
     attr_reader: encrypt, decrypt, 
     
-    def initialize
-        @encrypt = encrypt
-        @decrypt = decrypt
+    def initialize(game)
+        @game = game
+        # @encrypt = encrypt
+        # @decrypt = decrypt
     end
 
 # scope? this is doing  a lot... different name?
     def encrypt
+        @game.word
         # recieve input
         puts "Please enter a letter"
 
