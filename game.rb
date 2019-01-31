@@ -1,26 +1,6 @@
-Dictionary ( loads file, returns random word)
-Game - keeps the random word, allows user to guess a letter
-Player = (keeps info on names, points)
-
-class Player
-    def intiailize
-        @points = 0
-    end
-
-    def add_point
-        @points += 1
-    end
-
-    def minus_point
-        @points -= 1
-    end
-end
-
-class Dictionary
-    def random
-        "tada"
-    end
-end
+# Dictionary ( loads file, returns random word)
+# Game - keeps the random word, allows user to guess a letter
+# Player = (keeps info on names, points)
 
 class Game
     def inintialize

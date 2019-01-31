@@ -8,7 +8,6 @@ class Container
         # @decrypt = decrypt
     end
 
-# scope? this is doing  a lot... different name?
     def encrypt
         @game.word
         # recieve input

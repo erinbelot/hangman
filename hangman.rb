@@ -1,4 +1,4 @@
-class Game 
+class Hangman
     attr_reader :word
 
     # File.open("word_list.txt") do |word|
@@ -12,7 +12,6 @@ class Game
     def display_word
        puts "_" == word.length  
     end
-
 end
 
 
